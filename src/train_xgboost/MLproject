@@ -1,0 +1,34 @@
+name: train_xgboost
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+
+      trainval_artifact:
+        description: ## ADD DESCRIPTION
+        type: string
+
+      val_size:
+        description: ## ADD DESCRIPTION
+        type: string
+
+      random_seed:
+        description: ## ADD DESCRIPTION
+        type: string
+
+      stratify_by:
+        description: ## ADD DESCRIPTION
+        type: string
+
+      xgb_config:
+        description: ## ADD DESCRIPTION
+        type: string
+
+      max_tfidf_features_output_artifact:
+        description: ## ADD DESCRIPTION
+        type: string
+
+
+    command: >-
+        python run.py  --trainval_artifact {trainval_artifact}  --val_size {val_size}  --random_seed {random_seed}  --stratify_by {stratify_by}  --xgb_config {xgb_config}  --max_tfidf_features_output_artifact {max_tfidf_features_output_artifact} 
