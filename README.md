@@ -39,6 +39,8 @@ hydra config using a command like so:
     $ -v 1.0.3 \
     $ -P hydra_options="modeling.max_tfidf_features=int(interval(10,30)) modeling.random_forest.max_features=interval(0.1,1.0) -m"
 
+More information can be found on the [documentation](https://hydra.cc/docs/plugins/ax_sweeper/)
+
 ## Further work
 
 ### axsweeper bug
