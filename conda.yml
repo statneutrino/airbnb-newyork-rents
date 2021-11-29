@@ -10,3 +10,4 @@ dependencies:
   - pip:
       - wandb==0.12.7
       - hydra-ax-sweeper==1.1.5
+      - hydra-joblib-launcher==1.1.5
