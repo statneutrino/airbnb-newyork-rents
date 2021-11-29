@@ -1,10 +1,21 @@
-# Build an ML Pipeline for Short-Term Rental Prices in NYC
-You are working for a property management company renting rooms and properties for short periods of 
-time on various rental platforms. You need to estimate the typical price for a given property based 
-on the price of similar properties. Your company receives new data in bulk every week. The model needs 
-to be retrained with the same cadence, necessitating an end-to-end pipeline that can be reused.
+# End-to-end ML Pipeline for Short-Term Rental Prices in NYC
+This github repository is the final outcome for a project that I undertook at Udacity. I wrote a 
+Machine Learning Pipeline to solve the following problem: a property management company is renting
+rooms and properties in New York for short periods on various rental platforms.
 
-In this project you will build such a pipeline.
+They need to estimate the typical price for a given property based on the price of similar properties. 
+The company receives new data in bulk every week, so the model
+needs to be retrained with the same cadence, necessitating
+a reusable pipeline.
+
+This solution is an *end-to-end* pipeline covering data fetching, validation, segregation, train
+and validation, test, and release. I have run the model on an initial
+data sample, re-run it on a new data sample simulating a
+new data delivery, and it can be reran on new data in production.
+
+# Experiment tracking using Weights & Biases
+I have used [Weights & Biases](https://wandb.ai/site) for tracking for artifacts, experiments and hyperparameters
+for this project. I have made my W&B project public and can be found [here](https://wandb.ai/statneutrino/nyc_airbnb)
 
 ## Table of contents
 
