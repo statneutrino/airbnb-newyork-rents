@@ -37,7 +37,7 @@ hydra config using a command like so:
 
     $ mlflow run https://github.com/statneutrino/airbnb-newyork-rents.git \
     $ -v 1.0.3 \
-    $ 
+    $ -P hydra_options="modeling.max_tfidf_features=int(interval(10,30)) modeling.random_forest.max_features=interval(0.1,1.0) -m"
 
 ## Further work
 
