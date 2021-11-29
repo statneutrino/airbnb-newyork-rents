@@ -1,5 +1,6 @@
 # End-to-end ML Pipeline for Short-Term Rental Prices in NYC
-This github repository is the final outcome for a project that I undertook at Udacity. I wrote a 
+This github repository (https://github.com/statneutrino/airbnb-newyork-rents) 
+is the final outcome for a project that I undertook at Udacity. I wrote a 
 Machine Learning Pipeline to solve the following problem: a property management company is renting
 rooms and properties in New York for short periods on various rental platforms.
 
