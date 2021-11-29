@@ -31,9 +31,12 @@ In order to run the scripts from a linux console, install mlflow and python=3.8.
 
 This runs the latest release.
 
-If wanting to use hydra-axsweeper to perform Bayesian optimisation for hyperparameter search:
+If wanting to use hydra-axsweeper to perform Bayesian optimisation for hyperparameter search, you override
+hydra config using a command like so:
 
-    $ mlflow run https://github.com/statneutrino/airbnb-newyork-rents.git -v 1.0.3
+    $ mlflow run https://github.com/statneutrino/airbnb-newyork-rents.git \
+    $ -v 1.0.3 \
+    $ 
 
 ## Further work
 
